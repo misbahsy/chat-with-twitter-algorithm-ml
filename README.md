@@ -1,12 +1,11 @@
-# GPT-4 & LangChain - Create a ChatGPT Chatbot for Your PDF Files
+# GPT & LangChain - Create a ChatGPT Chatbot for Twitter's The Algorithm ML Repo
 
-Use the new GPT-4 api to build a chatGPT chatbot for multiple Large PDF files.
+Use the new GPT-3.5 api to build a chatGPT chatbot The Algorithm ML Repo.
 
-Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Pinecone is a vectorstore for storing embeddings and your PDF in text to later retrieve similar docs.
+Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Pinecone is a vectorstore for storing embeddings and your repo in text to later retrieve similar docs. [Autodoc](https://github.com/context-labs/autodoc) used to create markdown files and then embedded using this repo. Original autodoc conversion done by [Sam Hogan](https://twitter.com/0xSamHogan) at this [link](https://github.com/context-labs/the-algorithm-ml). Template of this repo is from [link](https://github.com/mayooear/gpt4-pdf-chatbot-langchain) by [Mayo](https://twitter.com/mayowaoshin).
 
-[Tutorial video](https://www.youtube.com/watch?v=ih9PBGVVOO4)
 
-[Get in touch via twitter if you have questions](https://twitter.com/mayowaoshin)
+[Get in touch via twitter if you have questions](https://twitter.com/misbahsy)
 
 The visual guide of this repo and tutorial is in the `visual guide` folder.
 
@@ -48,11 +47,11 @@ PINECONE_INDEX_NAME=
 
 5. In `utils/makechain.ts` chain change the `QA_PROMPT` for your own usecase. Change `modelName` in `new OpenAIChat` to `gpt-3.5-turbo`, if you don't have access to `gpt-4`. Please verify outside this repo that you have access to `gpt-4`, otherwise the application will not work with it.
 
-## Convert your PDF files to embeddings
+## Convert your repo to embeddings
 
-**This repo can load multiple PDF files**
+**This repo can load repo with multiple folders**
 
-1. Inside `docs` folder, add your pdf files or folders that contain pdf files.
+1. Run Autodoc on your original repo and create markdown files for the entire repo. Save the results of autodoc as a separate repo, and provide the link in the script/ingest-data.ts file.
 
 2. Run the script `npm run ingest` to 'ingest' and embed your docs. If you run into errors troubleshoot below.
 
@@ -69,7 +68,7 @@ In general, keep an eye out in the `issues` and `discussions` section of this re
 **General errors**
 
 - Make sure you're running the latest Node version. Run `node -v`
-- Try a different PDF or convert your PDF to text first. It's possible your PDF is corrupted, scanned, or requires OCR to convert to text.
+- Ensure you have markdown files for each code file either generated using autodoc or similar tools.
 - `Console.log` the `env` variables and make sure they are exposed.
 - Make sure you're using the same versions of LangChain and Pinecone as this repo.
 - Check that you've created an `.env` file that contains your valid (and working) API keys, environment and index name.
