@@ -2,12 +2,11 @@
 
 Use the new GPT-3.5 api to build a chatGPT chatbot The Algorithm ML Repo.
 
-Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Pinecone is a vectorstore for storing embeddings and your repo in text to later retrieve similar docs. [Autodoc](https://github.com/context-labs/autodoc) used to create markdown files and then embedded using this repo. Original autodoc conversion done by [Sam Hogan](https://twitter.com/0xSamHogan) at this [link](https://github.com/context-labs/the-algorithm-ml).This repo is a fork from [gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain) by [Mayo](https://twitter.com/mayowaoshin).
+Tech stack used includes LangChain, Pinecone, Typescript, Openai, and Next.js. LangChain is a framework that makes it easier to build scalable AI/LLM apps and chatbots. Pinecone is a vectorstore for storing embeddings and your repo in text to later retrieve similar docs. [Autodoc](https://github.com/context-labs/autodoc) used to create markdown files and then embedded using this repo. Original autodoc conversion done by [Sam Hogan](https://twitter.com/0xSamHogan) at this [link](https://github.com/context-labs/the-algorithm-ml). This repo is a fork from [gpt4-pdf-chatbot-langchain](https://github.com/mayooear/gpt4-pdf-chatbot-langchain) by [Mayo](https://twitter.com/mayowaoshin).
 
 
-[Get in touch via twitter if you have questions](https://twitter.com/misbahsy)
 
-The visual guide of this repo and tutorial is in the `visual guide` folder.
+The visual guide of this repo and tutorial is in the `visual guide` folder also created by [Mayo](https://twitter.com/mayowaoshin).
 
 **If you run into errors, please review the troubleshooting section further down this page.**
 
