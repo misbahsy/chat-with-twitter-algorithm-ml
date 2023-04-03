@@ -11,7 +11,7 @@ The visual guide of this repo and tutorial is in the `visual guide` folder also 
 
 **If you run into errors, please review the troubleshooting section further down this page.**
 
-## Development
+## Development 
 
 1. Clone the repo
 
