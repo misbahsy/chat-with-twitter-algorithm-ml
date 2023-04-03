@@ -319,9 +319,9 @@ export default function Home() {
           </main>
         </div>
         <footer className="m-auto p-4">
-          <a href="https://twitter.com/mayowaoshin">
-            Powered by LangChainAI. Demo built by Misbah Syed (Twitter: @misbahsy). Thanks to Sam Hogan (Twitter: @0xSamHogan) for Autodoc and Mayo (Twitter: @mayowaoshin) for ChatDoc template.
-          </a>
+          <p>
+            Powered by <a href="https://twitter.com/langchainai">LangChainAI</a>. Demo built by <a href="https://twitter.com/misbahsy">Misbah Syed (Twitter: @misbahsy)</a>. Thanks to <a href="https://twitter.com/0xSamHogan">Sam Hogan (Twitter: @0xSamHogan)</a> for Autodoc and <a href="https://twitter.com/mayowaoshin">Mayo (Twitter: @mayowaoshin)</a> for ChatDoc template.
+          </p>
         </footer>
       </Layout>
     </>
